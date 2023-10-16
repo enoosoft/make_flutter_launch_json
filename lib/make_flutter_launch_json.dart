@@ -18,13 +18,13 @@ Future<String> makeLaunchJsonString() async {
 
   var json = <String, dynamic>{};
   json['version'] = '0.2.0';
-  json['configurations'] = devicesToMap(devices, json);
+  json['configurations'] = devicesToMap(devices);
   final launchJson = prettyPrintJson(jsonEncode(json));
   print('launchJson: $launchJson');
   return launchJson;
 }
 
-List<Map> devicesToMap(String devices, Map<String, dynamic> json) {
+List<Map> devicesToMap(String devices) {
   List<Map> list = [];
   final lines = devices.split('\n');
   for (var line in lines) {
