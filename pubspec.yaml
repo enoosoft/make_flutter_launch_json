@@ -1,7 +1,7 @@
 name: make_flutter_launch_json
 description: A sample command-line application.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/enoosoft/make_flutter_launch_json.git
 
 environment:
   sdk: ^3.2.0-210.2.beta
