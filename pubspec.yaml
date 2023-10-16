@@ -4,7 +4,7 @@ version: 1.0.0
 repository: https://github.com/enoosoft/make_flutter_launch_json.git
 
 environment:
-  sdk: ^3.2.0-210.2.beta
+  sdk: ^3.1.3
 
 # Add regular dependencies here.
 dependencies:  

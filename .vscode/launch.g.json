@@ -2,10 +2,31 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Windows (desktop)",
+      "name": "EnooiPhone (mobile)",
       "request": "launch",
       "type": "dart",
-      "deviceId": "windows",
+      "deviceId": "00008110-000111941192401E",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "iPhone 11 Pro Max (mobile)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "7ADE1ED2-3E1C-4B14-A090-0B462906111F",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "iPad Pro (12.9-inch) (5th generation) (mobile)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "5A30E0E6-9142-4E71-B35E-0A15A4D59EE4",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "macOS (desktop)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "macos",
       "flutterMode": "debug"
     },
     {
@@ -13,13 +34,6 @@
       "request": "launch",
       "type": "dart",
       "deviceId": "chrome",
-      "flutterMode": "debug"
-    },
-    {
-      "name": "Edge (web)",
-      "request": "launch",
-      "type": "dart",
-      "deviceId": "edge",
       "flutterMode": "debug"
     }
   ]
